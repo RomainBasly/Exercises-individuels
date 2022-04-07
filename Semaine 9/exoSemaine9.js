@@ -10,17 +10,17 @@
 // }
 // return longest)
 
-// réponse
+// réponse étape 1
 
 function countNumberOfWords(str) {
     var spl = str.split(" ");
-    //console.log(spl);
-    var longest = [];
-    longest.push(spl);
-    //console.log(longest);
-    return longest.length;
-    //     if (spl(i).length > longest) {
-    //         )
-    // }
-    // return longest)
+    //console.log(spl)
+    console.log(spl.length);
+    return spl.length;
 }
+
+//countNumberOfWords("J'aime les filles");
+
+countNumberOfWords("J'aime les filles dit Dutronc");
+
+//
